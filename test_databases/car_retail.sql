@@ -72,4 +72,6 @@ INSERT INTO Cars
 VALUES
     ('1', '1', '2', 'Ford F-150', 'READY', 23000),
     ('3', '2', '1', 'Ford Mustang', 'WAITING', 10000),
-    ('4', '3', '3', 'Toyota Prius', 'WORKING', 5000)
+    ('4', '3', '3', 'Toyota Prius', 'WORKING', 5000),
+    ('5', '3', '1', 'Ford Mustang', 'WORKING', 10000)
+
