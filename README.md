@@ -26,3 +26,6 @@ The following guide will help you link the lectures in the unit with the content
 - **Lecture 5**: Sorting and grouping
   - [Tutorial 4. Sorting and grouping](https://github.com/ffraile/database_tutorials/blob/main/tutorials/4.%20Sorting%20and%20grouping.ipynb)
   - [Sorting and Grouping Exercises](https://github.com/ffraile/database_tutorials/blob/main/class%20exercises/4.%20Sorting%20and%20grouping.ipynb)
+
+- **Lecture 6**: Exam rehearsal
+- (Data modeling exercises to prepare for the exam and Kahoot with type questions for the unit test)
