@@ -29,3 +29,8 @@ The following guide will help you link the lectures in the unit with the content
 
 - **Lecture 6**: Exam rehearsal
 - (Data modeling exercises to prepare for the exam and Kahoot with type questions for the unit test)
+
+# Practice Environment
+## Docker Playground
+Create an account in docker hub. 
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/databse_tutorials/docker-compose/stack.yml)
