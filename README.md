@@ -33,4 +33,4 @@ The following guide will help you link the lectures in the unit with the content
 # Practice Environment
 ## Docker Playground
 Create an account in docker hub. 
-[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/databse_tutorials/docker-compose/stack.yml)
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/database_tutorials/master/docker-compose/stack.yml)
