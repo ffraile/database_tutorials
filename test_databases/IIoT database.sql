@@ -50,7 +50,7 @@ create table sensors (
 
 drop table if exists sensor_readings;
 CREATE TABLE sensor_readings (
-  reading_id int primary key,
+  reading_id int primary key AUTO_INCREMENT,
   sensor_fk int,
   reading_value float,
   created timestamp,

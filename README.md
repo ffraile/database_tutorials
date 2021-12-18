@@ -50,4 +50,29 @@ Click on the button below to start the test environment:
 
 [![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/database_tutorials/master/test_databases/stack.yml)
 
-Docker Playground will ask for your Docker credentials to login. 
+Docker Playground will ask for your Docker credentials to login. Once you enter your credentials, playground will be 
+ready to start:
+
+![docker node ready](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/docker_start_button.png)
+
+When you click on start, Docker Playground will start building the services for the database and the adminer management 
+frontend. The building process might take a while, so a bit of patience is needed at this stage:
+
+![docker stack building](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/stack_builder.png)
+
+**WARNING**: When the building is done, a click button will appear. The click button might be a little bit tricky to click, 
+depending on your browser. If you can´t click it, you can just refresh the page and ignore the message. 
+At this point you are able to access your docker environment in PWD. The easiest way to access it is to click 
+on the **8080** link to the adminer frontend:
+
+![docker node ready](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/docker_node_ready.png)
+
+Once you click on the link, you will access the adminer frontend, where you need to enter the credentials to connect to
+the MySQL service:
+- user name: root
+- password: mysql_is_awesome
+
+![login to adminer](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/login_to_adminer.png)
+
+Once you are in adminer, you can use its user interface to import the test database files and do the exercises. 
+Enjoy!
