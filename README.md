@@ -1,5 +1,6 @@
 # database_tutorials
-This project contains tutorials and exercises for the course on Computer Sciences of the Bsc in Engineering and Management at [EDEM](https://edem.es/). 
+This project contains tutorials and exercises for the course on Computer Sciences of the Bsc in Engineering and 
+Management at [EDEM](https://edem.es/). 
 The course is organised in to the following folders: 
 - **Tutorials:** Follow along tutorials for each of the classes. 
 - **Class Exercises:** Exercises to do during class to better understand the content.
@@ -32,5 +33,22 @@ The following guide will help you link the lectures in the unit with the content
 
 # Practice Environment
 ## Docker Playground
-Create an account in docker hub. 
-[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/database_tutorials/master/docker-compose/stack.yml)
+The test environment in Docker Playground allows us to experiment with SQL using MySQL an Docker. Docker is becoming 
+the industry standard for containerisation: a Technology that allows to easily and efficiently deploy applications 
+using *lightweight virtual machines* called containers. 
+In this practice, you will deploy two services (or microservices) in Docker Playground:
+- A MySQL database
+- A web administration interface (adminer)
+
+You will then connect to the web interface of adminer to run your SQL queries. 
+### Requirements 
+For this environment you need an Internet connection and a **Docker hub account**. To create a Docker hub account, just 
+go to [Docker Hub](https://hub.docker.com/), and sign up with a valid email address. 
+
+### Steps
+Click on the button below to start the test environment: 
+
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/database_tutorials/master/test_databases/stack.yml)
+
+Docker Playground will ask for your credentials to login. 
+Once you login, 
