@@ -74,5 +74,84 @@ the MySQL service:
 
 ![login to adminer](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/login_to_adminer.png)
 
-Once you are in adminer, you can use its user interface to import the test database files and do the exercises. 
+Once you are in adminer, you can use its user interface to import the test database files and do the exercises. Just
+copy the raw contents of the test database you want to load and enter it in the *SQL Command* input text field:
+
+![create database](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/command_sql.png)
+
+Now, you can select the database, and click on *SQL Command* to enter again your search query. 
+
+![query](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/command_sql_2.png)
+
 Enjoy!
+
+## SQL Fiddle
+[SQL Fiddle](http://sqlfiddle.com/) is a simple yet powerful environment you can use to set up a test environment for 
+SQL really fast and test your code. 
+### Requirements
+No requirements
+
+### Steps
+In the web interface, in the panel to the left, you need to enter the ```CREATE TABLE```
+and ```INSERT INTO``` statements to create your tables and insert your rows. 
+
+![query](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/sql_fiddle.png)
+
+To load a database into this panel, just copy the contents of the SQL file you want to test, paste the content of the 
+file into the left panel and **delete** the `` CREATE DATABASE`` statements. For instance, for the car_retail test 
+database, the page should look something like this:
+
+![query](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/sql_fiddle_2.png)
+
+Now, click on the **Build Schema** button. The right panel should be now enabled. In this panel you can now enter your 
+search queries and start fiddling with SQL:
+
+![query](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/sql_fiddle_3.png)
+
+## Hosted MySQL and Workbench
+In the long-term, the best alternative is to have MySQL installed in a PC. 
+
+### Installer for Microsoft Windows
+You can download the Installer for Microsoft Windows from this link: 
+
+[MS Windows Installer](https://dev.mysql.com/downloads/installer/)
+
+Select the lightweight installer (around 2.3Mb), and click Download. You do not need to create an Oracle account, click 
+on "No thanks, just start my Download" instead. 
+
+Open the installer, you will have to provide administration privileges to make changes in your computer. Select the 
+Developer configuration option, that will install both MySQL service and MySQL Workbench in your computer. 
+
+Follow the instructions, eventually you will be asked to select the encryption method. Select the "Use Legacy 
+Encryption" method recommended for a test environment. 
+You will also be asked to enter a password for the user root, enter a password for the service. 
+When the installation is completed, you can launch the services control panel app to check whether your service is up
+and running, just look for "Services" in your language in windows and look for the MySQL service and make sure it is 
+started. You may shut it down when you are not using it. 
+
+Now, you can look for and open Workbench in your system. You should have a connection to a local server: 
+
+![MySQL workbench](https://raw.githubusercontent.com/ffraile/database_tutorials/master/img/mysql_workbench.png)
+
+Enter the password you configured during the installation process and you are good to go!
+
+### Installer for Mac OS X
+Download the installer for MAC OS from this link: 
+
+[MAC OS Installer](https://dev.mysql.com/doc/refman/8.0/en/macos-installation-pkg.html)
+
+Follow the installation steps, just as in windows, eventually you will be asked to select the encryption method. Select the "Use Legacy 
+Encryption" method recommended for a test environment. 
+You will also be asked to enter a password for the user root, enter a password for the service.
+
+Once the installation is completed, the service is available in your platform. Note that, if you chose to not start 
+MySQL, you will need to enter launchctl from the command line or start MySQL by clicking "Start" using the MySQL 
+preference pane to start it.
+
+You should install MySQL Workbench as well, using the info in this link:
+
+[Workbench](https://dev.mysql.com/doc/workbench/en/wb-installing-mac.html)
+
+Once you installed it, as in Windows, create a connection to your local service, making sure it is started! Use the 
+password you set during the installation process and you are ready to go!
+
