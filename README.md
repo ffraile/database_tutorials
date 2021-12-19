@@ -33,12 +33,12 @@ The following guide will help you link the lectures in the unit with the content
 
 # Practice Environment
 ## Docker Playground
-The test environment in Docker Playground allows us to experiment with SQL using MySQL an Docker. Docker is becoming 
+The test environment in Docker Playground allows us to experiment with SQL using MySQL an [Docker](https://www.docker.com/). Docker is becoming 
 the industry standard for containerisation: a Technology that allows to easily and efficiently deploy applications 
 using *lightweight virtual machines* called containers. 
 In this practice, you will deploy two services (or microservices) in Docker Playground:
-- A MySQL database
-- A web administration interface (adminer)
+- A [MySQL](https://www.mysql.com/) database service with the test databases in the test database folder. 
+- A web administration interface, [adminer](https://www.adminer.org/).
 
 You will then connect to the web interface of adminer to run your SQL queries. 
 ### Requirements 
@@ -48,7 +48,7 @@ go to [Docker Hub](https://hub.docker.com/), and sign up with a valid email addr
 ### Steps
 Click on the button below to start the test environment: 
 
-[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/database_tutorials/master/test_databases/stack.yml)
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/ffraile/database_tutorials/master/docker/stack.yml)
 
 Docker Playground will ask for your Docker credentials to login. Once you enter your credentials, playground will be 
 ready to start:
